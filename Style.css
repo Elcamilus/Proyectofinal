@@ -1,0 +1,37 @@
+
+.titulos{
+    text-align: center;
+    color: lightblue;
+    font-family:cursive;
+}
+.titulos2{
+    text-align: left;
+    color: lightsalmon;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+body {
+    background-color:azure;
+
+}
+.lista li{
+    display: inline;
+    margin-left: 10px;
+    font-family: fantasy;
+    font-size: 15px;
+}
+.formulario{
+    display: inline-block;
+    background-color: gainsboro;
+}
+.formulario2{
+    display: inline-block;
+    background-color: gainsboro;
+}
+.noDis{
+    display: none;
+}
+.comment{
+    width: 500px;
+    height: 200px;
+}
