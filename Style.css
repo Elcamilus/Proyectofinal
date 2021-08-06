@@ -12,26 +12,35 @@
 }
 body {
     background-color:azure;
-
+}
+.divres{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .lista li{
     display: inline;
-    margin-left: 10px;
     font-family: fantasy;
     font-size: 15px;
 }
-.formulario{
-    display: inline-block;
-    background-color: gainsboro;
+.listaOc{
+    list-style: none;
+    font-size: 0px;
 }
-.formulario2{
+.listaOc li{
     display: inline-block;
-    background-color: gainsboro;
+    position: relative;
+    font-family:fantasy;
+    font-size: 15px;
+    width: 80px;
 }
-.noDis{
+.listaOc ul{
+    position: absolute;
     display: none;
 }
-.comment{
-    width: 500px;
-    height: 200px;
+.listaOc ul li{
+    display: block;
+}
+.listaOc li:hover ul{
+    display: block;
 }
