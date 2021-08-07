@@ -5,6 +5,7 @@
     font-family:cursive;
 }
 .titulos2{
+    display: flex;
     text-align: left;
     color: lightsalmon;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -18,10 +19,20 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
 }
+.divresv{
+    display: flex;
+    flex-wrap: ;
+    flex-direction: column;
+    border: 2px ridge gainsboro;
+    position: absolute;
+    left: 83%;
+    top: 45%;
+}
 .lista li{
     display: inline;
     font-family: fantasy;
     font-size: 15px;
+    width: 100px;
 }
 .listaOc{
     list-style: none;
@@ -43,4 +54,13 @@ body {
 }
 .listaOc li:hover ul{
     display: block;
+}
+.comentario{
+    width: 400px;
+    height: 90px; 
+}
+a{
+    font-style: normal;
+    color: black;
+    text-decoration: none;
 }
